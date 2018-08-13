@@ -1,4 +1,4 @@
-The purpose of this github project is to allow a candidate to demonstrate the
+The purpose of this github project is to allow a candidate to demonstrate their ability
 to communicate software development concepts while writing python-django code.
 
 
@@ -19,9 +19,9 @@ Setup Instructions
 * Fork and clone this repo
 * Issue the `vagrant up` command
 
-At this point you have a working run time that has nginx, uwsgi installed.
+At this point you have a working run time that has `nginx` and `uwsgi` installed.
 
-You application should go in `/opt/harper` on the guest, however you can 
+Your application should go in `/opt/harper` on the guest, however you can 
 develop in the `./harper` directory on your workstation.
 
 The configuration of the guest was done with Ansible.
@@ -34,7 +34,7 @@ of discussion. (e.g. why did you made the choice)
 
 **IMPORTANT**: 
 
-No database has been installed. Use what you like, be ready to discuss the 
+No database has been installed. Use what you like, and be ready to discuss the 
 choice and its relative merits.
 
 **IMPORTANT**: 
@@ -48,8 +48,7 @@ Task
 
 Create a simple application to manage hotels, their location and their contacts.
 
-Requirements
-++++++++++++
+### Requirements
 
 _Data_:
 
@@ -96,7 +95,7 @@ User Interface:
 Criteria
 ========
 
-The evaluator should be able to clone your enviroment, issue a vagrant up and
+The evaluator should be able to clone your enviroment, issue a `vagrant up` and
 operate the system you've creatd. 
 
 The role of a developer in an organization is about communication. Your 
@@ -114,7 +113,7 @@ submission will be evalutated based on the following:
 
 Extra Credit:
 * Keep a wiki in your project of improvements you'd make to this project.
-* Keep you deferred work in the Github issue tracker and lay out a simple 
+* Keep your deferred work in the Github issue tracker and lay out a simple 
   workflow.
 * Add a feature not listed in the requirements and be ready to discuss why.
 
